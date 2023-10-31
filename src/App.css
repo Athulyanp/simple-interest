@@ -1,38 +1,51 @@
-.App {
-  text-align: center;
-}
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.app{
+  background-image: url("https://www.unionbankofindiauk.co.uk/portals/0/web_images/Interest_Rate.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: wheat;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.container{
+  background-color: white;
+  width: 510px;
+  border-radius: 10px;
+  padding: 3rem;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.amount-card{
+  background-color: rgb(205, 50, 84);
+  height: 150px;
+  margin-top: 20px;
+}
+.title{
+  margin-left: 80px;
+}
+.title-para{
+  margin-left: 110px;
+}
+.card-text{
+  padding-top: 50px;
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
 }
+.text-fields{
+  margin-top: 40px;
 
-.App-link {
-  color: #61dafb;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.input{
+  margin-bottom: 30px;
+}
+.outlined-basic{
+  width: 510px;
+}
+.btn{
+  width: 250px;
+  height: 70px;
+ 
 }
